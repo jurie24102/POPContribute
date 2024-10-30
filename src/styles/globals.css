@@ -1,0 +1,58 @@
+/* styles/Home.module.css */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #e0e0e0;
+}
+
+.title {
+	color: #333;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.slaps {
+	color: #333;
+	font-size: "16px";
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+/* Neumorphism button style */
+.neumorphism-button {
+	border-radius: 10px;
+	background: #e0e0e0;
+	box-shadow: 14px 14px 28px
+			#b1b1b1,
+		-14px -14px 28px #ffffff;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	color: #333;
+	font-weight: bold;
+	cursor: pointer;
+	transition: box-shadow 0.3s
+		ease;
+	margin: 1rem;
+}
+
+/* Pressed effect on button */
+.neumorphism-button:active {
+	box-shadow: inset 14px 14px
+			28px #b1b1b1,
+		inset -14px -14px 28px
+			#ffffff;
+}
+
+/* Disabled button style */
+.neumorphism-button:disabled {
+	cursor: not-allowed;
+	color: #aaa;
+	box-shadow: none;
+	background-color: #d1d1d1;
+}
