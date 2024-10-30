@@ -79,7 +79,7 @@ export default function AutoSlap() {
 								);
 							}
 						},
-						500
+						100
 					);
 			};
 
