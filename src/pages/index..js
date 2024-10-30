@@ -110,7 +110,7 @@ export default function AutoSlap() {
 	return (
 		<div className="container">
 			<h1 className="title">
-				Auto Slap API
+				Let&apos;s Rank Up!
 			</h1>
 			<p className="slaps">
 				Slaps sent:{" "}
